@@ -75,3 +75,6 @@ def func():
 
 def func_f_push():
     print("Doing Git Practice")
+
+def git_test():
+    print("Git testing")
