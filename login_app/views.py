@@ -78,3 +78,6 @@ def func_f_push():
 
 def git_test():
     print("Git testing")
+
+def git_branch4():
+    print("checking branch functionalities")    
