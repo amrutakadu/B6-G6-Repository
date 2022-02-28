@@ -19,6 +19,3 @@ class NewUserForm(UserCreationForm):
         return user
 
 # autopep8 --in-place --aggressive --aggressive forms.py
-
-class NewForm_Git(UserCreationForm):
-    name = forms.CharField(required=False)
