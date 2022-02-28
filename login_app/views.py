@@ -80,4 +80,7 @@ def git_test():
     print("Git testing")
 
 def git_branch4():
-    print("checking branch functionalities")    
+    print("checking branch functionalities")
+
+def git_branch5():
+    print("checking for conflicts while merging")    
