@@ -85,3 +85,6 @@ def git_branch4():
 def git_branch5():
     print("checking for conflicts while merging")
     print("didnt get conflicts...trying again")    
+
+def Sumit_view():
+    print("Ye mera branch hai...!!!")
