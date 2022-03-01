@@ -9,3 +9,7 @@ class Credentials(models.Model):
 
 class gitModel(models.Model):
     gitcmd = models.CharField(max_length = 50, null = True)
+
+class Student(models.Model):
+    name = models.CharField(max_length = 20, null = True)
+    branch = models.CharField(max_length = 20, null = True)
