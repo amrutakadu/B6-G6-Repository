@@ -9,3 +9,8 @@ class Credentials(models.Model):
 
 class gitModel(models.Model):
     gitcmd = models.CharField(max_length = 50, null = True)
+
+class Teacher(models.Model):
+    name = models.CharField(max_length = 100, null = True)
+    dept = models.CharField(max_length = 100, null = True)
+
