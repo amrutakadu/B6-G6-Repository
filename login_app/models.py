@@ -13,3 +13,8 @@ class gitModel(models.Model):
 class Student(models.Model):
     name = models.CharField(max_length = 20, null = True)
     branch = models.CharField(max_length = 20, null = True)
+    
+class Teacher(models.Model):
+    name = models.CharField(max_length = 100, null = True)
+    dept = models.CharField(max_length = 100, null = True)
+
